@@ -1,0 +1,93 @@
+/* the tag selector */
+
+body{
+    background-color: bisque;
+}
+
+img{
+    
+    height: 100px;
+    width: 100px;
+}
+p{
+    color:blue;
+}
+
+/* dimension: px,$,em*/
+/* color:name, #000000,rgb(r,g,b)*/
+
+.first_para{
+    color: red;
+}
+
+.red_apple{
+    background-color: green;
+    /* margin-top: 40px; */
+    position: sticky;
+    top: 50px;
+    right: 50px;
+}
+
+.green_apple{
+   background-color: red;
+   position: fixed;
+   right: 40px;
+   bottom:40px;
+}
+
+.circular{
+    border-radius: 100%;
+}
+/*ID selector*/
+#special{
+    background-color: blueviolet;
+    color: goldenrod;
+    font-weight: bold;
+}
+
+/*grouping selctor*/
+.ekGroup, h1{
+    background-color: rgb(38, 229, 181);
+    color: rgb(218, 32, 113);
+    font-weight: bold;
+}
+/* Pseudo Selectors*/
+.apple{
+    color: brown;
+}
+.apple:hover{
+    background-color: gold;
+    color: darkblue;
+    font-weight: bold;
+}
+
+/*playing with divs and display*/
+
+.square100{
+    height: 100px;
+    width: 100px;
+}
+
+.firstBox{
+    background-color: red;
+    position: relative;
+}
+
+.secondBox{
+    background-color: green;
+    margin-left: 100px;
+    /* display: none; */
+    /* visibility:hidden; */
+    position: relative;
+    bottom: 90px;
+    right: 90px;
+}
+
+.thirdBox{
+    background-color:blue;
+    margin-inline-start: 200px;
+    margin-top: -200px;              /* same for margin-block-start:-200px*/
+    position: relative;
+    right: 180px;
+    top: 20px;
+}
