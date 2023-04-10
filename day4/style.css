@@ -38,6 +38,7 @@ p{
 .circular{
     border-radius: 100%;
 }
+
 /*ID selector*/
 #special{
     background-color: blueviolet;
