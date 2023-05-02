@@ -138,7 +138,8 @@ a{
 
 .social-link{
     margin: 0px 40px;
-    color:var(--primaryAccentColor);
+    /* color:var(--primaryAccentColor);  */
+    color: #81def3;
 }
 .social-link:hover{
     color: white;
