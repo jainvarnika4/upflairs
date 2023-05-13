@@ -1,0 +1,146 @@
+/* Box 1 
+
+ .element{
+    width: 200px;
+    height: 200px;
+    border: solid 3px;
+    border-color: black;
+    background-color: palegreen;
+    animation: pulse 5s infinite;
+}
+
+ @keyframes pulse{
+    0% ,100% {
+        background-color: cornflowerblue;
+    }
+    50%{
+        background-color: #e7aac9e6;
+    }
+} 
+
+.element:hover{
+    animation: resizer 500ms 3;
+}
+
+@keyframes resizer{
+    0% , 100% {
+        transform: scale(1.0);
+        background-color: cornflowerblue;
+    }
+    50%{
+        transform: scale(0.25);
+        background-color: #e7aac9e6;
+    }
+}
+
+Box 2  
+.rotate{
+    width: 200px;
+    height: 200px;
+    border : solid black 3px;
+    margin-top: 10px;
+    background-color: palevioletred;
+    text-align: center;
+}
+
+.rotate:hover{
+    animation: rotater 5s infinite;
+}
+
+@keyframes rotater{
+    0% , 100%{
+        transform: rotate(45deg);
+    }
+}
+
+
+Box 3 
+.scale{
+    width: 100px;
+    height: 100px;
+    border: solid black 3px;
+    margin-top: 40px;
+    margin-inline-start: 20px;
+    animation: scaler;
+    animation-duration :1.5s;
+    animation-timing-function:  ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    text-align: center;
+}
+
+@keyframes scaler{
+    0%{
+        transform: scale(0.3);
+        background-color: red;
+        border-radius: 100%;
+    }
+
+    50%{
+        background-color: olive;
+    }
+
+    100%{
+        transform: scale(1.5);
+        background-color: plum;
+    }
+} 
+
+
+Box 4 
+.move{
+    width: 100px;
+    height: 100px;
+    border: solid black 3px;
+    border-radius: 100%;
+    animation: mover;
+    animation-duration :1.5s;
+    animation-timing-function:  ease-in;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    text-align: center;
+}
+
+@keyframes mover{
+    0%{
+        transform: translate(0px,0px);
+    }
+    100%{
+        transform: translate(0px,400px);
+    }
+}  */
+
+
+/* Box 5 */
+.bounce{
+    width: 200px;
+    height: 200px;
+    border: solid black 3px;
+    background-color: fuchsia;
+    border-radius: 100%;
+    animation: bouncer;
+    animation-duration :1.5s;
+    animation-timing-function:  ease-in-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    text-align: center;
+}
+
+@keyframes bouncer{
+    0%{
+        transform: translate(0px,0px);
+    }
+    50%{
+        transform: translate(400px,400px);
+    }
+    100%{
+        transform: translate(800px,0px);
+    }
+}

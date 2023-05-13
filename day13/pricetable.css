@@ -1,0 +1,106 @@
+body{
+    font-family: 'Alkatra', cursive;
+    background-color: lightcyan;
+    
+}
+
+.price-box{
+    text-align: center;
+    border: 2px solid black;
+    box-sizing:border-box;
+    margin-right: 5vh;
+    background-color: white;
+}
+
+.title{
+    color: brown;
+    text-align: center;
+
+}
+
+h1{
+    color: red;
+}
+
+h5{
+    color: black;
+    font-size: medium;
+}
+
+.price-container{
+    height: 100vh;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.add-to-cart{
+    text-decoration: none;
+    background-color: brown;
+    background-image: linear-gradient(
+        180deg,
+        brown,
+        red
+    );
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    color: white;
+    display: inline-block;
+    width: 75%;
+}
+
+.add-to-cart:hover{
+    background-image: linear-gradient(
+        180deg,
+        red,
+        red
+    );
+}
+
+.features{
+    text-align: left;
+    padding: 0px 20px;
+}
+
+.feature{
+    margin-bottom: 10px;
+    color: black;
+}
+
+.feature-desc{
+    margin-left: 10px;
+}
+
+.disable{
+    color: gray;
+}
+
+.price-row-cancel{
+    color: grey;
+}
+
+.cancel-price{
+    text-decoration: line-through;
+}
+
+.price-row{
+    color: red;
+}
+
+.rupee{
+    position: relative;
+    bottom: 12px;
+}
+
+.price{
+    font-size:xx-large;
+}
+
+.tenure{
+    position: relative;
+    font-size: small;
+}
