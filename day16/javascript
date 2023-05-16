@@ -1,0 +1,48 @@
+client-side prog lang. - seen to the user - help in descision making or styling etc.
+can not change database
+
+used for Dynamic behaviour of website
+// - comments
+
+Fundamentals--
+1. writing a simple JS on Web breowser - Dev Tools _ console
+2. Data types
+   numbers (45, 8.4, -34, -34.2)
+   string  (" ", ' ', ''+''=concatenation; ''.length; ''.indexOf(''); ''[1])
+   boolean  (true, false )
+   array  (['' , 45] -- heterogeneous elements(diff data types); [].length)
+   objects (collection or group of key-value pairs-- {name:'varnika', age:21} )
+
+3. operators  ( =, +=, ++)
+4. variables  (var a=10 -- only hav eto use 'var' it itself decides the data type)
+5. Built-in functions
+6. using javascript in HTML
+   a. Inline
+   b. internal
+   c. external
+7. control statements
+8. looping statements
+   while
+   for
+   for in 
+9. user defined functions
+
+objects--- console.write(), window.alert()
+          document 
+          form data
+          form elements
+
+
+in Console --> alert()   console.log()  prompt() 
+
+
+# var m = {name:'varnika', age:21}
+# undefined
+# m
+# {name: 'varnika', age: 21}
+# m[name]
+# undefined
+# m['name']
+# 'varnika'
+# m['name'][0]
+# 'v'
