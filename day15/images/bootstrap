@@ -1,0 +1,21 @@
+website- getbootstrap.com
+place css link in 'head' tag.
+place script link in 'body' tag at the end i.e. just before the closing body tag.
+
+
+for images--
+pngegg.com
+flaticon.com -- can even selct size 
+
+for navbar--
+copy the html link for navbar and paste in the code
+make changes as required.
+
+for alignment of text and image--
+bootstrap -> snippets -> find one needed -->open and find the desired -> inspect -> find that div -> copy -> copy element
+
+for classes of bootstrap--
+search on google bootstrap and find the meaning of classes 
+bootstrap-version 5.0
+
+ctrl + f - search and replace same words in the doc
