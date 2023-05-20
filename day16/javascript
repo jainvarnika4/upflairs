@@ -27,15 +27,14 @@ Fundamentals--
    for in 
 9. user defined functions
 
-objects--- console.write(), window.alert()
+objects--- console.write func, window.alert func
           document 
           form data
           form elements
 
 
-in Console --> alert()   console.log()  prompt() 
 
-
+#in Console --> alert()   console.log()  prompt() 
 # var m = {name:'varnika', age:21}
 # undefined
 # m
@@ -46,3 +45,35 @@ in Console --> alert()   console.log()  prompt()
 # 'varnika'
 # m['name'][0]
 # 'v'
+
+
+10. Document object Modelling
+         document.write()
+         document.URL - gives url of page
+         document.head - gives content of head tag
+         document.body - content of body tag
+         document.links - provides links presentin code
+         {document.links[0]-- provides the link}
+
+         i. Selecting the HTML tags
+             document.getElementsByTagName ( eg --var heading = document.getElementsByTagName('h1'))
+             document.getElementById
+             document.getElementsByClassName (eg.--var lists = document.getElementsByClassName('list') 
+                                                 --for(var i=0;i<lists.length;i++){lists[i].style.fontSize='50px'})
+             document.querySelector -- selects only 1 (--id->'#' --class->'.')
+             document.querySelectorAll -- selects all of that type
+
+         ii. Interaction with the Document
+             domObject.textContent - changes only text 
+             domObject.innerHTML - 
+             domObject.style -- (eg.-- heading[0].style.color = 'red', .style.paddingBottom = '20px')
+             domObject.getAttribute -- (eg.-- variable--anc.getAttribute('href'))
+             domObject.setAttribute -- (eg. --anc.setAttribute('href','https://google.com'))
+             domObject......
+             domObject.appendChild --(eg.--list1.appendChild(list2.childNodes[1]))--adds item1 of list2 in list1
+             domObject.childNodes[n] 
+
+         iii. Events 
+               domObject.addEventListener(event,listener)
+                  
+         
